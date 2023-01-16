@@ -1,9 +1,14 @@
 <template>
-   <div id="calendar-day">
-        <!-- Anfang: Template für die Calendar-Event-Component -->
-  <CalendarEvent></CalendarEvent>
-        <!-- Ende: Template für die Calendar-Event-Component -->
+    <div class="card">
+              <div class="card-header text-center" role="button">
+                <strong>Montag</strong>
+              </div>
+              <div class="card-body">
+                <CalendarEvent></CalendarEvent>
+              </div>
     </div>
+
+    
 </template>
 
 <script>
